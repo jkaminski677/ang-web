@@ -1,0 +1,17 @@
+.follow a {
+    padding: 10px;
+    color: #000;
+    font-weight: bold; 
+    text-decoration: none;
+}
+
+.follow a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) 
+{
+    .folow a {
+        padding: 5px;
+    }
+}
